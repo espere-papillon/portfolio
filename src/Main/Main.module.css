@@ -1,0 +1,27 @@
+.main {
+    height: 100vh;
+    background-color: #d8adff;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.photo {
+    width: 250px;
+    height: 400px;
+    background-color: antiquewhite;
+}
+
+.greeting {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+

@@ -19,7 +19,7 @@ export const Skills = () => {
     return (
         <div className={styles.skillsBlock}>
             <div className={`${stylesContainer.container} ${styles.container}`}>
-                <h1>SKILLS</h1>
+                <h2>SKILLS</h2>
                 <div className={styles.skills}>
                     {skills.map((element,index) => {
                         return (

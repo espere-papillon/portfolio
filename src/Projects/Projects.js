@@ -17,7 +17,7 @@ export const Projects = () => {
     return (
         <div className={styles.projectsBlock}>
             <div className={`${stylesContainer.container} ${styles.container}`}>
-                <h1>PROJECTS</h1>
+                <h2>PROJECTS</h2>
                 <div className={styles.projects}>
                     {skills.map((element,index) => {
                         return (

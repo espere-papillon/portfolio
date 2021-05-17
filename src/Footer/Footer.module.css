@@ -1,0 +1,33 @@
+.header {
+    height: 180px;
+    background-color: #9efcd7;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.copyrightImg {
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+}
+
+.copyright {
+    font-size: small;
+}
+
+.copyrightBlock {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.name {
+    margin-top: 30px;
+}

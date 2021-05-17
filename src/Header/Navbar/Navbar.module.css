@@ -3,8 +3,13 @@
     width: 400px;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .navbar a {
     color: black;
+}
+
+.navbar a + a {
+    margin-right: 5px;
 }

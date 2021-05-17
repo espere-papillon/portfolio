@@ -9,15 +9,15 @@ export const Contacts = () => {
                 <h2>CONTACTS</h2>
                 <div className={styles.form}>
                     <form action="#">
-                        <ul>
+                        <ul className={styles.ul}>
                             <li>
-                                <input placeholder={"Name"} type="text" />
+                                <input className={styles.input} placeholder={"Name"} type="text" />
                             </li>
                             <li>
-                                <input placeholder={"E-mail"} type="email" />
+                                <input className={styles.input} placeholder={"E-mail"} type="email" />
                             </li>
                             <li>
-                                <textarea placeholder={"Message"}></textarea>
+                                <textarea className={styles.textarea} placeholder={"Message"}></textarea>
                             </li>
                             <li className={styles.button}>
                                 <button type="submit">SEND MESSAGE</button>

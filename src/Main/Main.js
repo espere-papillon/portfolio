@@ -7,6 +7,7 @@ export const Main = () => {
         <div className={styles.main}>
             <div className={`${stylesContainer.container} ${styles.container}`}>
                 <div className={styles.greeting}>
+                    <a name="main"></a>
                     <span>HELLO THERE</span>
                     <h1>MY NAME MARINA</h1>
                     <p>I'M A FRONTEND DEVELOPER</p>

@@ -1,5 +1,5 @@
 .header {
-    height: 180px;
+    height: 130px;
     background-color: #9efcd7;
     display: flex;
     justify-content: center;
@@ -29,5 +29,5 @@
 }
 
 .name {
-    margin-top: 30px;
+    margin-top: 20px;
 }

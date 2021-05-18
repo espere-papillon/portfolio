@@ -23,8 +23,10 @@
     height: 200px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    position: relative;
+    /*position: relative;*/
+    background-color: #adffef;
 }
 
 .imgProject a {
@@ -34,8 +36,8 @@
     border: 3px solid black;
     border-radius: 3px;
     padding: 2px 5px;
-    margin-top: 50px;
-    position: absolute;
+    /*margin-top: 50px;*/
+    /*position: absolute;*/
 }
 
 .descriptionProject {
@@ -50,6 +52,11 @@
     float: right;
     text-align: left;
     width: auto;
+}
+
+.titleProject h3 {
+    background-color: #fff4ad;
+    padding: 2px 5px;
 }
 
 .descriptionProject span {

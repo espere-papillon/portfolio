@@ -5,18 +5,19 @@ import stylesContainer from "../Container.module.css";
 
 export const Projects = () => {
     const skills = [
-        {img: null, title: "Project 1", description: "Really good project"},
-        {img: null, title: "Project 2", description: "Really good project Really good project Really good project Really good project Really good project Really good project Really good project"},
+        {img: null, title: "Project 1", link: "#", description: "Really good project"},
+        {img: null, title: "Project 2", link: "#", description: "Really good project Really good project Really good project Really good project Really good project Really good project Really good project"},
     ]
 
     skills.map(element => {
         return (
-            <Project img={element.img} title={element.title} description={element.description}/>
+            <Project img={element.img} title={element.title} link={element.link} description={element.description}/>
         )
     })
     return (
         <div className={styles.projectsBlock}>
             <div className={`${stylesContainer.container} ${styles.container}`}>
+                <a name="projects"></a>
                 <h2>PROJECTS</h2>
                 <div className={styles.projects}>
                     {skills.map((element,index) => {

@@ -11,7 +11,7 @@ export const Footer = () => {
                 <h2 className={styles.name}>MARINA BOVKUNOVICH</h2>
                 <NavbarFooter/>
                 <div className={styles.copyrightBlock}>
-                    <img className={styles.copyrightImg} src={copyright} alt="Image all rights reserved"/>
+                    <img className={styles.copyrightImg} src={copyright} alt="All rights reserved"/>
                     <p className={styles.copyright}>ALL RIGHTS RESERVED</p>
                 </div>
             </div>

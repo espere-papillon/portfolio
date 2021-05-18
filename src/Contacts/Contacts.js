@@ -6,6 +6,7 @@ export const Contacts = () => {
     return (
         <div className={styles.contactsBlock}>
             <div className={`${stylesContainer.container} ${styles.container}`}>
+                <a name="contacts"></a>
                 <h2>CONTACTS</h2>
                 <div className={styles.form}>
                     <form action="#">
